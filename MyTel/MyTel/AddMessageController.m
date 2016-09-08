@@ -40,7 +40,7 @@
 -(void)addUIContent{
     
     UILabel *nameLabel=[[UILabel alloc]initWithFrame:CGRectMake(12, 84, 100, 40)];
-    nameLabel.text=@"输入账号";
+    nameLabel.text=@"输入12账号";
     namecontent=[[UITextField alloc]initWithFrame:CGRectMake(114, 84, 200, 40)];
     namecontent.placeholder=@"输入账号";
     namecontent.borderStyle=UITextBorderStyleRoundedRect;
